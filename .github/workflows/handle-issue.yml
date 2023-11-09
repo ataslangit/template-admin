@@ -40,7 +40,7 @@ jobs:
             Regards.
 
       - name: Find duplicates
-        uses: wow-actions/potential-duplicates@v1.0.9
+        uses: wow-actions/potential-duplicates@v1.1.0
         with:
           GITHUB_TOKEN: ${{ github.token }}
           label: duplicate
