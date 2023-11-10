@@ -82,6 +82,19 @@
       background-color: transparent;
     }
   }
+
+  .navbar-dropdown {
+    .dropdown-menu {
+      min-width: 22rem;
+      overflow: hidden;
+    }
+
+    &.dropdown-notifications {
+      .dropdown-notifications-list {
+        max-height: 30rem;
+      }
+    }
+  }
   // Style for detached navbar
   &.navbar-detached {
     // Container layout max-width
