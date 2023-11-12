@@ -58,6 +58,22 @@
   }
 }
 
+.badge {
+  &.badge-notifications {
+    position: absolute;
+    top: auto;
+    display: inline-block;
+    margin: 0;
+    transform: translate(-50%, -30%);
+
+    &:not(.badge-dot) {
+      padding: 0.05rem 0.2rem;
+      font-size: 0.582rem;
+      line-height: 0.75rem;
+    }
+  }
+}
+
 // * Layout Navbar
 // *******************************************************************************
 .layout-navbar {
@@ -87,6 +103,11 @@
     .dropdown-menu {
       min-width: 22rem;
       overflow: hidden;
+    }
+
+    .badge-notifications {
+      top: 0.5rem;
+      padding: 0.2rem 0.4rem;
     }
 
     &.dropdown-notifications {
