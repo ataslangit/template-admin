@@ -115,4 +115,15 @@ let menu, animate;
 
   // Auto update menu collapsed/expanded based on the themeConfig
   window.Helpers.setCollapsed(true, false);
+
+  // PerfectScrollbar
+  var verticalExamples = document.getElementsByClassName('scrollable-container');
+
+  // Vertical Example
+  // --------------------------------------------------------------------
+  Array.from(verticalExamples).forEach(function (element) {
+    new PerfectScrollbar(element, {
+      wheelPropagation: false
+    });
+  });
 })();
