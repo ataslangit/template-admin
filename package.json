@@ -52,7 +52,7 @@
     "perfect-scrollbar": "~1.5.5"
   },
   "devDependencies": {
-    "@babel/core": "~7.22.5",
+    "@babel/core": "~7.23.9",
     "@babel/plugin-proposal-object-rest-spread": "~7.20.7",
     "@babel/plugin-transform-destructuring": "~7.23.3",
     "@babel/plugin-transform-template-literals": "~7.22.5",
